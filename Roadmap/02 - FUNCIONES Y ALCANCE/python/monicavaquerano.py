@@ -157,7 +157,7 @@ funcionPrincipal("Soy una string de prueba")
 
 def miFuncion(string1: str, string2: str) -> int:
     counter = 0
-    for i in range(1, 100):
+    for i in range(1, 101):
         if i % 3 == 0 and i % 5 == 0:
             print(string1 + " " + string2, end=", ")
         elif i % 5 == 0:
